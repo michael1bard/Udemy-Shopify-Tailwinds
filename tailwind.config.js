@@ -5,10 +5,14 @@ module.exports = {
     "./sections/*.liquid",
     "./snippets/*.liquid",
     "./templates/customers/*.liquid",
-    "./templates/*.liquid"
+    "./templates/*.liquid",
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        94: "22rem",
+      },
+    },
   },
   plugins: [],
 };
